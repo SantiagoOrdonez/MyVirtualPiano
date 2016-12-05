@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{90EBDEFB-EFB4-6938-A362-F22B85DC95A5}") = "Immersive Piano", "Assembly-CSharp.csproj", "{7684A44E-7ADC-920B-8A4E-C8BAE376AC33}"
+EndProject
+Project("{90EBDEFB-EFB4-6938-A362-F22B85DC95A5}") = "Immersive Piano", "Assembly-CSharp-Editor.csproj", "{60F28B4F-2DB2-863C-55DC-9CAE0042C765}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7684A44E-7ADC-920B-8A4E-C8BAE376AC33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7684A44E-7ADC-920B-8A4E-C8BAE376AC33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7684A44E-7ADC-920B-8A4E-C8BAE376AC33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7684A44E-7ADC-920B-8A4E-C8BAE376AC33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F28B4F-2DB2-863C-55DC-9CAE0042C765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F28B4F-2DB2-863C-55DC-9CAE0042C765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F28B4F-2DB2-863C-55DC-9CAE0042C765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F28B4F-2DB2-863C-55DC-9CAE0042C765}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
