@@ -62,4 +62,15 @@ public class PracticeMode : LearnSong
 
     public override void notifyOnRelease(GameObject note)
     {}
+
+    public void refresh()
+    {
+        i = 0;
+        j = 0;
+        k = 0;
+        currentNote = allNotes.NoteManager[currentSong.getNotes()[0]];
+        changeColor(currentNote, Color.green);
+
+
+    }
 }

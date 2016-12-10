@@ -19,6 +19,7 @@ public class PianoNote : MonoBehaviour, Playable{
         if (mode.Equals("learnSongMode")) {
             learnSongModeScreen.getCurrentMode().notify(this.gameObject);
         } else if (mode.Equals("freeMode")) {
+            audio.Play();
             if (transform.childCount == 0)
             {
                 Renderer renderer = GetComponent<Renderer>();
